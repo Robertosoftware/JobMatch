@@ -2,10 +2,15 @@ body#LoginForm{
 background-image:url("https://chronicleweek.com/wp-content/uploads/2018/07/Jim-Toner-Businessman-Send-in-the-Wolves.jpg"); 
 background-repeat:no-repeat; background-position:center; 
 background-size:cover;
- padding-top:100px;} .form-heading { color:#fff; 
-font-size:23px;} .panel h2{ color:#444444; font-size:18px; margin:0 0 
-8px 0;} .panel p { color:#777777; font-size:14px; margin-bottom:30px; 
-line-height:24px;} .login-form .form-control {
+ padding-top:100px;} 
+.form-heading { color:#fff; 
+font-size:23px;} 
+.panel img{
+  border-radius: 15px;
+}
+.format p { color:#ffffff; font-size:14px; margin-bottom:30px; 
+line-height:24px; font-weight: bold;}
+.login-form .form-control {
   background: #f7f7f7 none repeat scroll 0 0;
   border: 1px solid #d4d4d4;
    margin:0 auto;
@@ -15,9 +20,8 @@ line-height:24px;} .login-form .form-control {
   line-height: 50px;
 }
 .main-div {
-  background: #ffffff none repeat scroll 0 0;
   border-radius: 2px;
-  margin: 10px auto 30px;
+  margin: auto;
   max-width: 38%;
   padding: 50px 70px 70px 71px;
 }
@@ -34,13 +38,17 @@ line-height:24px;} .login-form .form-control {
   border-color: #072238;
   color: #ffffff;
   font-size: 14px;
-  width: 100%;
+  width: 300px;
   height: 50px;
   line-height: 50px;
   padding: 0;
+  border-radius: 15px;
 }
-.forgot {
-  text-align: left; margin-bottom:30px;
+.new {
+  text-align: center; margin-bottom:30px;
+}
+.new a{
+	color: #072238;
 }
 .botto-text {
   color: #ffffff;
@@ -52,3 +60,13 @@ line-height:24px;} .login-form .form-control {
 }
 .back { text-align: left; margin-top:10px;} .back a {color: #444444; font-size: 
 13px;text-decoration: none;}
+#inputemail{
+    width:300px;
+    margin: auto;
+  border-radius: 10px;
+}
+#inputPassword{
+    width:300px;
+    margin: auto;
+  border-radius: 10px;
+}
