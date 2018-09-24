@@ -58,7 +58,7 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `practicum`.`horario` (
   `id_horario` INT NOT NULL AUTO_INCREMENT,
-  `tipo` TIME NOT NULL,
+  `tipo` VARCHAR(20 )NOT NULL,
   PRIMARY KEY (`id_horario`),
   UNIQUE INDEX `id_horario_UNIQUE` (`id_horario` ASC))
 ENGINE = InnoDB;
